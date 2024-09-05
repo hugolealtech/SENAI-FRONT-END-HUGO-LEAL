@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.html/style/style.css"> <!-- Inclua o arquivo CSS -->
+</head>
+<body>
+    <header></header>
+
+    <main>
+
+        <form action="#" method="post">
+
+            <label for="textp">Digite nome</label>
+            <input id="texto" disabled value="Hugo de Oliveira Leal" placeholder="Digite seu nome" type="text">
+
+ 
+           <label for="email">Digite seu E-mail</label>
+           <input id="email" placeholder="nomeusuario@aluno.senai.br" type="email">
+
+           <label for="senha">Digite sua senha</label>
+           <input id="senha" maxlength="8" placeholder="Digite sua senha" type="password"> 
+
+           <div>
+
+              
+                <label for="termosAceite">Aceito os termos?</label> 
+                <input type="checkbox" id="termosAceite"><p>Sim</p>
+                <input type="checkbox" id="termosAceite"><p>não</p>
+
+           </div>
+
+
+           <label for="nascimento">Qual sua data de nascimento</label>
+           <input type="date" id="nascimento">
+
+          
+            <label for="Idmatricula">Digite Matricula</label>
+            <input type="number" min="1"  step="2" id="Idmatricula">
+
+        <label for="localizacao">Qual estado você mora</label>
+
+            <select  id="localizacao">
+
+                <option value="DF">-</option>
+                <option value="GO">GO</option>
+                <option value="MG">MG</option>
+                <option value="SP">SP</option>
+                <option value="SP">SP</option>
+
+            </select>
+
+            <label for="raca"> Qual cor se idetifica</label>
+
+            <label for="branco">Branco</label>
+            <input id="branco" name="raca" type="radio"> <!-- Tem que colocar name raca para indicar que todos estão no mesmo grupo, senão ele deixa marcar todas de uma só vez, e não uma única opção.-->
+
+            <label for="indio">Índio</label>
+            <input id="indio" name="raca"  type="radio">
+
+            <label for="amarelo">Amarelo</label>
+            <input id="amarelo" name="raca"  type="radio">
+
+
+
+            <label for="bio">Descreva sobre você</label>
+            <textarea rows="20" cols="100" id="bio"></textarea>
+
+           <button type="submit">CADASTRAR</button>
+           <BUtton type="reset">LIMPAR FORMULÁRIO</BUtton>
+
+
+
+        </form> <!-- Aqui se tem a conexão com PHP geralmente para conexão com BD, envio e recebimento de informações-->
+            
+
+    </main>
+</body>
+</html>
