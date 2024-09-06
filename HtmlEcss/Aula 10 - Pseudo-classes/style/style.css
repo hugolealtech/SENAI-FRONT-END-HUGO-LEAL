@@ -1,0 +1,191 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root{
+
+    --primary: rgb(132,0,255);
+    --secundaria:rgb(248, 235, 235);
+    --teste:#20B2AA;
+    --fonte: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --fonteCollor:white;
+}
+
+header, footer{
+
+    width: 100%;
+    background-color: var(--primary);
+    padding: 20px 0px;
+    color:var(--fonteCollor);
+    font-family: var(--fonte);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header a{
+
+    color: var(--fonteCollor);
+    text-decoration: none;
+}
+
+#pesquisarBtn{
+
+    transition: 1s; /*volta do transition*/
+}
+
+#pesquisarBtn:hover{
+
+    background-color: var(--primary);
+    color: white;
+    cursor: pointer;
+    transition: 1s; /*ida transition*/
+    border-radius: 5px;
+    border: 2px solid white
+}
+
+a:hover{
+
+    color: rgb(184,184,184);
+}
+
+#pesquisarBtn:active{
+
+    background-color: none;
+    border-radius: 5px;
+}
+
+input{
+
+    width: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid white;
+    background-color: var(--secundaria);
+    
+}
+
+input:focus{
+
+    padding: 10px;
+    border: none;
+    border:  2px solid rgb(255, 0,132);
+    transition: 1s;
+    outline: none;
+
+}
+
+#pesquisarBtn{
+
+    padding: 10px;
+    background-color: white;
+    color: var(--primary);
+    border: none;
+}
+
+a[href="index.html"]{
+
+    text-decoration: underline;
+     font-size: 30px;
+     transition: 1s; /*transition precisa ser aplicado na ida e na volta*/
+    /*Aqui é a volta!*/
+ }
+
+a[href="index.html"]:hover{
+
+   text-decoration: underline;
+    font-size: 30px;
+    transition: 1s;/*Aqui é a ida!*/
+
+}
+
+
+/* MAIN */
+
+/* PSEUDO-ELEMENTOS */
+
+main{
+
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin: auto;
+   
+}
+.produto{
+
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+   
+}
+
+.produto img{
+
+    width: 80%;
+    padding: 20px
+}
+
+produto.p{
+    text-align: justify;
+}
+.produto button{
+
+    flex-direction: column;
+}
+
+
+
+
+/* + um elemento acompanhado exemplo:
+
+<h1>
+    <p> 
+        bla bla bla 
+    </p>
+
+</h1>
+*/
+
+/* 
+> um elemento filho exemplo:
+<h1>
+
+    <p> blablabal </p>
+
+</h1>
+
+
+*/
+h1:has(+ p){  /*h1:has(>p){ color: white}*/
+    color: blueviolet;
+}
+
+
+
+p:not(.preco){ /*tudo que não tem preço (classe preço)  vai ter a cor alterada!*/
+
+    color: rgb(96, 127, 185);
+
+}
+#logo::after{
+    content: "™";
+}
+
+h1::before{
+    content:"™";
+}
+
+/* 
+
+h1:not(::before){
+    background-color: aqua;
+} */
+
