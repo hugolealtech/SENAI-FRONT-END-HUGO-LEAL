@@ -3,20 +3,25 @@
     padding: 0%;
 }
 
-header{
+header {
 
     width: 50%;
-    height: 200px;
-    background-image: url(/AtividadeSalarioFamilia/images/salario-familia.jpg);
+    height: 500px;
+    background-image: url(../images/salario-familia.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    margin: 0px auto ;
-    
-  
+    background-size: cover; /* Use 'cover' para preencher o espaço mantendo a proporção */
+    background-position: center; /* Centraliza a imagem no container */
+    margin: 5px auto; /* Centraliza o header horizontalmente */
+   
 }
+
 main {
 
     width: 100%;
+    display: flex;
+    justify-content: center; /* Eixo X */
+    align-items: center; /* Eixo Y */
+    flex-direction: column;
 
   
 }
@@ -28,23 +33,51 @@ form{
     flex-direction: column;
     align-items: center;
     gap: 10px;
-   
-   
+    margin-top: 20px;
+
+    
 
 }
-input{
+input, table{
+
     width: 50%;
     padding: 5px;
     height: 40px;
     text-decoration:none;
     border: none;
     border-bottom: 2px solid black ;
-
- 
+    border-collapse: collapse; 
+    margin: 10px auto;
 }
 
 textarea{
 
     resize: none;
     padding: 5px 5px 5px 5px;
+
+}  
+
+
+th, td {
+    border: 1px solid #080808;
+    padding: 8px;
+    
+}
+
+th:empty{
+   border: none;
+   
+    background-color: none;
+}
+button{
+
+    width: 200px;
+    height: 50px;
+    background-color: rgb(14, 168, 140) ;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    font-size: 20px;
+   
+
 }
