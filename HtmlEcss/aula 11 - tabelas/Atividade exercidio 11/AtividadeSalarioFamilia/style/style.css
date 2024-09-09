@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+
+    width: 50%;
+    height: 200px;
+    background-image: url(/AtividadeSalarioFamilia/images/salario-familia.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px auto ;
+    
+  
+}
+main {
+
+    width: 100%;
+
+  
+}
+
+form{    
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+   
+   
+
+}
+input{
+    width: 50%;
+    padding: 5px;
+    height: 40px;
+    text-decoration:none;
+    border: none;
+    border-bottom: 2px solid black ;
+
+ 
+}
+
+textarea{
+
+    resize: none;
+    padding: 5px 5px 5px 5px;
+}
