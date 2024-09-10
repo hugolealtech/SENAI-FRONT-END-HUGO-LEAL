@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+@font-face{
+    font-family: Ewert ;
+    src: url(/fonts/Ewert-Regular.ttf);
+}
+
+@font-face {
+    font-family: Dear Mother;
+    src: url(/fonts/Dear\ Mother.otf);
+}
+
+@font-face {
+    font-family:PlaywriteCU;
+    src: url(/fonts/Playwrite_CU/PlaywriteCU-VariableFont_wght.ttf);
+}
+
+body{
+    color: black;
+   
+}
+h3{
+
+    font-family:Dear Mother;
+}
+
+P{
+    font-family: PlaywriteCU;
+}
