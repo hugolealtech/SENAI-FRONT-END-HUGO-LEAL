@@ -3,6 +3,46 @@
     padding: 0%;
    
 }
+:root{
+
+    --cor1:rgb(204, 76, 44);
+    --cor2:rgb(113, 199, 187);
+    --cor3:rgb(75, 196, 180);
+    --cor4:rgb(34, 194, 172);
+}
+
+@keyframes teste { /*utilizado por etapas*/
+
+    0%{ 
+        background-color: var(--cor1);
+    };
+    50%{
+        background-color: var(--cor2);
+
+    };
+
+    100%{
+        background-color: var(--cor3);
+        padding: 10px;
+    };
+    
+}
+
+#animado{
+
+    width: 100px;
+    height: 100px;
+    background-color: var(--cor4);
+    
+}
+
+#animado:hover{
+
+    animation-name: teste;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    
+}
 
 @font-face{
     font-family: Ewert ;
@@ -29,5 +69,5 @@ h3{
 }
 
 P{
-    font-family: PlaywriteCU;
+    font-family: Mingzat;
 }
