@@ -42,11 +42,8 @@ header{
 
 main{
 
-    display: flex;
-    justify-content: center;
-
-   
-    
+     display: flex;
+    justify-content: center; 
 }
 
 section{
@@ -64,17 +61,62 @@ hr{
     border:var(--rosa) 3px solid;
     width: 80%;
     margin: 0px auto;
+    display: block;
 
     
 }
+#boxImg{
 
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
 #img{
 
-    margin: 0px auto;
+    margin: 50px auto;
     width: 70%;
-    height: 800px;
-    border: 2px solid black; 
+    height: 700px;
+    border:1px solid black; 
     background-image: url(/img/elizabethMenor.png);
     background-size: cover;
     background-position: center;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: centerß;
+}
+#img p{
+    padding:0px 20px;
+    margin-bottom: 20px;
+}
+#butao a{
+
+    background-color: var(--rosa);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--braco); 
+    display: flex;
+    text-decoration: none;
+    margin: 50px auto; 
+    margin-bottom: 20px; 
+    font-size: 20px;
+    width: 100px;
+    height: 10px; 
+    margin: 1px solid black;  
+}
+
+#descricao {
+
+    margin: 1px auto;
+}
+#descricao{
+
+   width: 75%;
+  
 }
