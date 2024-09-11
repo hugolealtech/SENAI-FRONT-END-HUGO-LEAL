@@ -65,9 +65,9 @@ main{
 
    }
     
-   #menuMobile{
+   /* #menuMobile{   FOI RETIRADO DAQUI
     display: flex;
-   }
+   }  */
 
    header{
     flex-direction: column;
