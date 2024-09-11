@@ -1,0 +1,44 @@
+@media screen and (orientation: landscape ) {
+    /* landscape - paisagem */
+    /* portraint - retrato */
+
+
+    body{
+
+        background-color: aqua;
+    }
+}
+
+
+@media screen and (orientation: portrait)  {
+
+    body{
+
+        background-color: chocolate;
+
+
+    }
+    
+}
+
+
+/* body{
+    background-color: red;
+}
+
+#menuPC{
+display: none;
+
+}
+
+#menuMobile{
+display: flex;
+}
+
+header{
+flex-direction: column;
+}
+
+nav ul{
+flex-direction: column;
+} */

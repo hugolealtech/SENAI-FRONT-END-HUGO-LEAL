@@ -1,0 +1,91 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+:root{
+
+    --cor1:red;
+    --cor2:green;
+    --cor3:blue;
+    --cor4:white;
+}
+
+header,footer{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--cor3);
+    color: var(--cor4);
+    padding: 10px 0;
+
+}
+
+nav ul{
+
+    list-style: none;/*limpa padrões de listas*/
+    display: flex;
+    gap:20px
+
+}
+ul a{
+    color: var(--cor4);
+    text-decoration: none;
+
+}
+body{
+
+    /* height: 100vh; */ /*PARA USAR VH VC PRECISA USAR O JUSTIFY-DIRECTIO COM O DISPLAY FLEX*/
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap:10px
+}
+
+main{
+
+    width: 80%;
+    padding: 10px;
+    background-color: rgb(155, 178, 178);
+}
+
+#menuMobile{
+
+    display: none; /*esconde o menu para PC*/
+    background-color: var(--cor2);
+}
+
+@media screen and (max-width : 700px) { /*Precisa colocar um duplo condicional*/
+
+   #menuPC{
+    display: none;
+
+   }
+    
+   /* #menuMobile{   FOI RETIRADO DAQUI
+    display: flex;
+   }  */
+
+   header{
+    flex-direction: column;
+   }
+
+   nav ul{
+    flex-direction: column;
+   }
+}
+
+@media print {
+    body{
+        color: red;
+        
+    }
+}
+
+main img{
+    width: 100%;
+    
+}
