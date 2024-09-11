@@ -4,22 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Correção Exercicio 12 Keyframes - Fontes</title>
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/style.css">  <!--A ordem de precedência o style deve ser primeiro-->
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="/styles/@MediaMobile.css">
+    
 </head>
 <body>
 
     <header id="logo">
       um logo muito massa
-        <nav>
-            <ul>
+        <nav id="menuPC">
+            <ul >
                 <li><a href="index.htmlHOME">HOME</a></li>
                 <li><a href="#">Página 01</a></li>
                 <li><a href="#">Página 02</a></li>
+                <li><a href="#">Página 04</a></li>
+                <li><a href="#">Página 05</a></li>
+                <li><a href="#">Página 06</a></li>
+            </ul>
+        </nav>
+        <nav id="menuMobile">
+            <ul> 
+                <li><a href="index.htmlHOME">HOME</a></li>
+                <li><a href="#">Página 01</a></li>
+                <li><a href="#">Página 02</a></li>
+                <li><a href="#">Página 04</a></li>
+                <li><a href="#">Página 05</a></li>
+                <li><a href="#">Página 06</a></li>
             </ul>
         </nav>
     </header>
 
-    <main></main>
+
+    <main>
+
+        <img src="#" alt="Uma banner">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima maiores cum voluptas rerum eius debitis nostrum, aperiam eveniet quisquam mollitia atque, ratione distinctio cumque. Itaque recusandae hic tenetur dolorem rem.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsam unde tenetur exercitationem quam odio adipisci doloremque quia a quas ea, consequatur atque facere, error, eveniet sed animi pariatur officia?</p>
+    </main>
     
 
     <footer>
