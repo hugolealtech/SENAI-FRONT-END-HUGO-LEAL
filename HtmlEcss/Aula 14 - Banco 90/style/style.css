@@ -92,7 +92,7 @@ header a{
 }
  #banner div{
 
-    width: 30%;
+    width: 50%;
     height: 100hv;
     padding: 100px 20px 100px 20px;
     background-color: var(--cor4);
@@ -209,6 +209,54 @@ header a{
     width: 300px;
     height: 300px;
     border-radius: 10px;
+}
+
+#tableAgenda{
+     
+    width: 100%;
+    height:auto;
+  
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#tableAgenda div{
+
+    background-color: #f2f2f2;
+    width: 60%;
+    box-shadow: 10PX 10PX 10PX;
+    gap: 10PX;
+}
+#tableAgenda h1{
+
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 90%;
+    height: 100px;
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color:var(--cor2);
+    color: var(--cor6);
+}
+
+#quinaTable{
+
+    border: none;
+    color: none;
+    background-color: transparent;
 }
 
 
