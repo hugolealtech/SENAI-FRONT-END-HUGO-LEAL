@@ -16,7 +16,7 @@
 header,footer {
 
     width: 100%;
-    height: 90px;
+    height: 80px;
     background-color: var(--cor2);
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@ header,footer {
 }
 
 #menus{
-    width: 90%;
+   width: 90%;
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -35,10 +35,12 @@ header,footer {
     display: flex;
     align-items: center;
     
+    
 } 
 
 #childMenu img{
-   gap: 3px;
+   gap: 10px;
+   padding: 0 20px 0 0 ;
    
     
 } 
@@ -47,14 +49,27 @@ header nav{
 
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 30px;
     color: var(--cor6);
+    transition: 2s;
 }
+
     
 header a{
     
     text-decoration: none;
     color: var(--cor6);
+    transition: 1s;
+}
+
+header a:hover{
+
+    transition: 1s;
+    background-color: var(--cor6);
+    color: var(--cor2);
+    font-size: larger;
+    width: 30px;
+    height: 30px;
 }
 
 #buttonMenu a{
@@ -96,11 +111,14 @@ header a{
     height: 100hv;
     padding: 100px 20px 100px 20px;
     background-color: var(--cor4);
-    opacity: 50%; 
- 
-    
+    opacity: 50%;
+    transition: 1s; 
  }
+#banner div:hover{
 
+    transition: 1s;
+
+}
  
 #banner button{
 
@@ -108,7 +126,16 @@ header a{
     background-color: var(--cor1);
     border: 4px solid var(--cor5);
     border-radius: 5px;
-    margin-top: 25px
+    margin-top: 25px;
+}
+
+#banner button:hover{
+
+    background-color: var(--cor4);
+    opacity: 50%;
+    color: var(--cor1);
+    transition: 0.5s;
+
 }
 
  #banner div a{
@@ -118,6 +145,14 @@ header a{
     background-color: var(--cor1);
     color: var(--cor6);
     text-decoration-color: black;
+}
+#banner div a:hover{
+
+    background-color: var(--cor6);
+    color: var(--cor1);
+    transition: 0.5s;
+
+    
 }
 
 #titleWayPay{
@@ -149,6 +184,16 @@ header a{
     flex-direction: column;
     text-align: center;
     padding: 40px;
+    transition: 2s;
+}
+
+#wayPay div:hover{
+
+    background-color: var(--cor4);
+    transition: 1s;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
 }
 
 #description{
@@ -163,6 +208,7 @@ header a{
   
 
 }
+
 
 #descriptionImg img{
 
