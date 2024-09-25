@@ -33,9 +33,9 @@ function tabuada(){
 
     var resultado = num1 * num2;
 
-    resultado.innerHTML.value = `
+    document.getElementById("showResults").innerHTML += `
     
-     <input type="number" name="resultado" id="mostraResultado">
+     <div> o resultado é ${resultado}</div>
     
     `
 
