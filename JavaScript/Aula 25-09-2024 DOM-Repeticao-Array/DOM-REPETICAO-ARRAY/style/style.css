@@ -1,0 +1,13 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.elementos{
+
+    padding: 20px;
+    background-color: rgba(54, 54, 235, 0.548);
+    margin: 20px;
+    color: white;
+
+}

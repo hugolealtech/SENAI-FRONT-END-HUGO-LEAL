@@ -1,0 +1,177 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+
+    --corBanner:rgba(11, 13, 14, 0.652);
+    --corCards:rgb(215, 223, 237);
+}
+/* Area de banner */
+#banner{
+
+    width: 100%;
+    height: 500px;
+    background-image: url(/images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bannerChild01{
+
+    text-decoration: none;
+    color: white;
+    background-color:var(--corBanner);
+    height: auto;
+    padding: 15px;    
+}
+
+#banner > #bannerChild2{
+    
+}
+
+/* Fim área de Banner */
+
+#mainSection{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#mainSectionText {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px
+}
+#mainSectionCards{
+
+    width: 50%;
+    height:auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.mainSectionCardsImg{
+
+    width:60%;
+    height: auto;
+    background-color: var(--corCards);
+    margin: 5px solid black;
+}
+.mainSectionCardsImg img{
+
+    width: 100%;
+    height: auto;
+    margin: 5px solid black;
+}
+
+.mainSectionCardsImg > h1{
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 10px;
+
+}
+.mainSectionCardsImg > p{
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size:5px; 
+    text-align: center; 
+
+}
+.livroDescricao{
+
+    overflow-y: scroll;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+.livroDescricao >p{
+
+    text-align: justify;
+}
+
+#mainSection2{
+
+    width: 100%;
+    height: auto;    
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: rgba(0, 0, 0, 0.749);
+}
+
+#mainSectionText2 {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    text-align: center;
+    color: var(--corCards);
+    margin-bottom: 20px;
+    background-color: blue;
+    margin: 10px;
+}
+
+.mainSection2Img{
+
+    width: 15%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#mainSection2Imag{
+
+  
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;justify-content: center;
+    background-image: url(/images/livros/percy1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#mainSection2Imag img{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+
+
+
+
+
