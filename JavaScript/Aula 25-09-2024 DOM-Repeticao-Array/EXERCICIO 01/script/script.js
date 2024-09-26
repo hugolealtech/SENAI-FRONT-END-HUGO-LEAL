@@ -23,22 +23,26 @@ function nFunciono(){
     alert("Clique em Resultado");
 }
 
-function tabuada(){
 
-    // var num1 = 0;
-    // var num2 = 0;
+document.getElementById('calcular').addEventListener('click',function(){
 
-     var num1 = getElementById("inputNumber1").value
-     var num2 = getElementById("inputNumber2").value
+   
 
-    var resultado = num1 * num2;
-
-    document.getElementById("showResults").innerHTML += `
+    let num1 = document.getElementById('num1').value
+    let num2 = document.getElementById('num2').value
     
-     <div> o resultado é ${resultado}</div>
     
-    `
+    num1 = parseFloat(num1)
+    num2 = parseFloat(num2)
+    
+    let resultado = num1 * num2
+    
+    document.getElementById('resultado').value = resultado
+    
+    });
+    
 
 
 
-}
+
+
