@@ -23,7 +23,7 @@ class Cliente {
 
 function mostrarClientes(){
 
-    document.querySelector("#lista").innerHTML = ``//limpa lista
+    document.querySelector("#lista").innerHTML = ``//limpa lista tirar o += para =
     
     clientes.forEach(cadaCliente => {
 
@@ -40,8 +40,6 @@ function mostrarClientes(){
         `
         
     });
-
-
 }
 
 function cadastrarCliente(){
