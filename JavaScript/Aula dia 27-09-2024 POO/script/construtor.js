@@ -18,7 +18,7 @@ class Cliente {
         this.receber = function(valor,cliente){}
     }
 
-    receber = function(valor,cliente){}// posso criar métodos fora do constructor
+    // receber = function(valor,cliente){}// posso criar métodos fora do constructor
 }
 
 function mostrarClientes(){

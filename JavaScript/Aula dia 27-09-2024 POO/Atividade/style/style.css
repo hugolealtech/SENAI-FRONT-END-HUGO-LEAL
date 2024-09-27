@@ -24,6 +24,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: antiquewhite;
     margin: 5px;
 }
@@ -34,6 +35,7 @@ main div{
     height: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 5px;
     color: aliceblue;
 }
@@ -41,9 +43,14 @@ main div{
 main div button{
 
     color: antiquewhite;
-    width: 40%;
+    width: 30%;
     background-color: blueviolet;
     margin: 2px auto;
+}
+
+main div ul{
+    color: black;
+    padding: 20px;
 }
 button:hover{
 
