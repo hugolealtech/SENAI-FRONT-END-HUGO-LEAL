@@ -1,0 +1,54 @@
+*{
+    
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+
+    width: 100%;
+    height: auto;
+    background-color:var(--bs-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    box-shadow: 10px,10px,10px;
+}
+
+main{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin: 5px;
+}
+
+main div{
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: aliceblue;
+}
+
+main div button{
+
+    color: antiquewhite;
+    width: 100%;
+    background-color: blueviolet;
+    margin: 2px auto;
+    font-size: 20%;
+}
+button:hover{
+
+    transition: 1s;
+    background-color: rgb(112, 166, 103)
+}
+
