@@ -123,37 +123,31 @@
     margin: 50px;
 
 }
-/* #adtPetSec{
-
-    width: 100%;
-    height: auto;
-    background: #6EB3D0;
-    display: flex;
-   
-}
-
-#adtPet{
-
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-
-}
-#formAdtPet{
-
-    display: flex;
-    fle
-    flex-direction: column;
-    width: 50%;
-    
-} */
-
 
  #butaoVerMais{
 
     width: 50%;
     flex-direction: column;
     text-align: center;
+    margin: 0px solid var(--rosa);
 } 
+
+#adtPetSec{
+
+    width: 100%;
+    height: 510px;
+    background-color: var(--verde);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+#adtPet{
+    width: 50%;
+}
+
+#formAdtPet{
+
+    display: flex;
+    align-items: center;
+    background-color: #6EB3D0;
+}
