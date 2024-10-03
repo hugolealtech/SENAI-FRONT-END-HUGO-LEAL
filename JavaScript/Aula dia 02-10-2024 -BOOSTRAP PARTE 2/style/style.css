@@ -1,0 +1,7 @@
+h1{
+    color: var(--bs-yellow);
+}
+.carousel-caption{
+
+    background-color: rgba(0, 0, 0, 0.199)!important; /*!important sobrescreve e prioriza sobre o css do bootstrap*/
+}

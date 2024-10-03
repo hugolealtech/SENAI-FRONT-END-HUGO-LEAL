@@ -16,7 +16,6 @@ var todosPacotes = [];
 
 todosPacotes.push(new Pacote("/img/praia01.jpg", "Nordeste","Melhor comida Brasileira", 350,["Pacote 3 dias", "Pacote 5 dias", "Pacote 10 dias"]));
 todosPacotes.push(new Pacote("/img/praia.jpg", "Sudeste","Melhor comida Brasileira", 350,["Pacote 3 dias", "Pacote 5 dias", "Pacote 10 dias"]));
-todosPacotes.push(new Pacote("/img/praia01 (3).jpg", "Sudeste","Melhor comida Brasileira", 350,["Pacote 3 dias", "Pacote 5 dias", "Pacote 10 dias"]));
 todosPacotes.push(new Pacote("/img/praia01 (4).jpg", "Sudeste","Melhor comida Brasileira", 350,["Pacote 3 dias", "Pacote 5 dias", "Pacote 10 dias"]));
 
 todosPacotes.forEach(cadaPacote  =>{
