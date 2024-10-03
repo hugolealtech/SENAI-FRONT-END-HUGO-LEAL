@@ -23,7 +23,24 @@ $('#teste3').on('click',function(){
     $('#caixa').removeClass('primeiroEstado');
     
    }else{
-    $('#caixa').toggleClass('segundoEstado','primeiroEstado');
+    $('#caixa').toggleClass('segundoEstado','primeiroEstado');// toggle é o mesmo que replace
+
    }
    
+});
+
+$('#teste4').on('click',function(){
+
+    // $('#caixa').slideToggle(500)
+    // $('#caixa').hide(500)
+    $('#caixa').fadeOut(500)
+
+});
+
+$('#teste5').on('click',function(){
+
+   
+    $('#caixa').show(500)
+    // $('#caixa').fadeIn(500)
+
 });
