@@ -27,13 +27,13 @@ todosCards.forEach(cadaCard => {
    
             <div class="card" style="width: 18rem;">
 
-            <div class="card-body">
+            <div id="card-body" class="card-body">
                 <img src="${cadaCard.srcImgAtividade}" class="card-img-top" alt="imagemProdutoCard">
                 <h5 class="card-title">${cadaCard.titulo}</h5>
                 <p class="card-text">${cadaCard.texto}</p>
                 <p id="cardValor" class="card-text">${cadaCard.h1Valor}</p>
 
-                <div id="butaoVerMais" class="d-flex flex-column w-50 align-content-center"> 
+                <div  class="d-flex  justify-content-center"> 
                   <a  href="#" data-bs-toggle="modal" data-bs-target="#" class="btn btn-primary">VER MAIS</a>
                 </div>
 

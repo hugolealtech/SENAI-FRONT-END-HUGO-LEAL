@@ -150,9 +150,10 @@
     
 } */
 
-/* #butaoVerMais{
 
-    width: 100%;
+ #butaoVerMais{
+
+    width: 50%;
     flex-direction: column;
     text-align: center;
-} */
+} 
