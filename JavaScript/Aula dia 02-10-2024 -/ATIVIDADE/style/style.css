@@ -1,0 +1,72 @@
+
+
+
+:root{
+
+     --azul: #6EB3D0;
+    --verde:#B6D7A8;
+    --rosa: #F7B6D2;
+    --laranja:#F4A623;
+    --preto:#000000;
+    --branco:#FFFFFF;
+}
+
+
+#cabecalho{
+
+    background-color: var(--azul) ;
+    display: flex;
+}
+
+.container-fluid{
+
+    padding: 0%;
+}
+
+#seuPet{
+
+    text-align: center;
+    width: 100%;
+    color: var(--azul);
+    font-size: 20%;
+    display: flex;
+}
+#seuPet h1{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 20px;
+}
+
+#imgBanner2{
+
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+ 
+   
+}
+
+.imagesBanner2 img{
+
+    width: 100%;
+    height: 200px;
+     
+}
+
+#loren{
+
+    width: 100%;
+}
+#loren,p{
+
+   text-align: center;
+   color: var(--azul);
+   margin: 20px;
+}
+
