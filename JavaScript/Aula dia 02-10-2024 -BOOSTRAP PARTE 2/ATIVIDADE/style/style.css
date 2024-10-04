@@ -111,7 +111,7 @@
 .card-body a {
 
     background-color: var(--rosa);
-    
+    border: none;
  
 
 }
@@ -131,14 +131,6 @@
     padding: 50px 0px 20px 0px;
 
 }
-
- #butaoVerMais{
-
-    width: 50%;
-    flex-direction: column;
-    text-align: center;
-    margin: 0px solid var(--rosa);
-} 
 
 #adtPetSec{
 
