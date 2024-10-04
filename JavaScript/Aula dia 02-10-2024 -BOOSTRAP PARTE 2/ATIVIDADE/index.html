@@ -4,28 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- bootstrap -->
-    <link rel="stylesheet" href="/ATIVIDADE/style/bootstrap.css">
+    <link rel="stylesheet" href="/style/bootstrap.css">
     <!-- style nativo  -->
-    <link rel="stylesheet" href="/ATIVIDADE/style/style.css">
+    <link rel="stylesheet" href="/style/style.css">
     <title>Atividade</title>
 </head>
 
     <header id="cabecalho" >
 
-        <img src="/ATIVIDADE/images/logo/logoWhite.svg" alt="">
+        <img src="/images/logo/logoWhite.svg" alt="">
 
         <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Adoção</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Galeria</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link active" aria-disabled="true">Contatos</a>
             </li>
           </ul>
 
@@ -36,7 +36,7 @@
         
         <div class="container-fluid">
             
-            <img class="w-100" id="imgBanner1" src="../ATIVIDADE/images/banner/banner.png" alt="">
+            <img class="w-100" id="imgBanner1" src="/images/banner/banner.png" alt="">
 
         </div>
 
@@ -47,7 +47,7 @@
         <div id="imgBanner2">
 
             <div class="imagesBanner2">
-                <img class="w-100" src="./images/dogsSection/img1.png" alt="">
+                <img class="w-100" src="/images/dogsSection/img1.png" alt="">
             </div>
 
             <div class="imagesBanner2">
@@ -80,33 +80,51 @@
         <div id="adtPetSec">
 
             <div class="adtPetImg">
-                <img src="/ATIVIDADE/images/imgBanner.png"  class="img-thumbnail" alt="...">
+                <img src="/images/imgBanner.png"  class="img-thumbnail" alt="...">
             </div>
 
 
             <div id="adtPet" class="container-fluid" class="d-flex flex-wrap wrap-row">
+
+                <h2>Insira aqui as suas informações para que possamos encontrar um amigo para você!</h2>
                 
-                <div id="formAdtPet" class="mb-3" class="w-100">
-                    <label for="formGroupExampleInput" class="form-label">Example label</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+                <div id="formAdtPet" class="mb-3" class="w-50">
+                    <label for="formGroupExampleInput" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="seu melhor e-mail">
                 </div>
 
                 <div id="formAdtPet" class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label">Example label</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+                    <label for="formGroupExampleInput" class="form-label">Telefone</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="(DDD) + seu telefone">
+                    
+                    
+                    
+                </div> 
+                <div id="termosAceite">
+                    <input type="checkbox" id="termosAceite"></input>
+                    <label for="termosAceite">Aceita Receber Notificações?</label> 
+                    
+
                 </div>
+                   
+               
+                <div id="buttonAdpt">
+                    <button class="btn btn-primary" id="btnFormAdptPet" type="button">ENVIAR</button>
+                </div>
+                
+  
 
             </div>
 
             
-
-
         </div>
        
     </main>
 
 
-    <footer></footer>
+    <footer>
+        <h5>Todos os Direitos Reservados a @PawShop 2024</h5>
+    </footer>
 
     <!-- MODAL -->
 
@@ -130,10 +148,10 @@
 
 
    
-    <script src="/ATIVIDADE/script/bootstrap.bundle.js"></script>
+    <script src="/script/bootstrap.bundle.js"></script>
     <script src="/ATIVIDADE/script/bootstrap.min.js"></script>
     <!-- <script src="/ATIVIDADE/script/pacotes.js"></script> -->
-    <script src="/ATIVIDADE/script/scriptsAtividade.js"></script>
+    <script src="/script/scriptsAtividade.js"></script>
     
 </body>
 </html>

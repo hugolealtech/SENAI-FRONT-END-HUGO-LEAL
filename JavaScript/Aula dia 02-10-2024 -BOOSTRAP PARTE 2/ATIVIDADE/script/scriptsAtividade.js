@@ -25,7 +25,7 @@ todosCards.forEach(cadaCard => {
     document.getElementById('cards').innerHTML += `
 
    
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem;"class="row row-cols-1 row-cols-md-3 g-4">
 
             <div id="card-body" class="card-body">
                 <img src="${cadaCard.srcImgAtividade}" class="card-img-top" alt="imagemProdutoCard">

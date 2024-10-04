@@ -16,6 +16,12 @@
 
     background-color: var(--azul) ;
     display: flex;
+    margin-bottom: 5px;
+}
+#cabecalho a{
+    text-decoration: none;
+    color: var(--preto);
+
 }
 
 .container-fluid{
@@ -81,6 +87,8 @@
     color: var(--laranja);
     width: 100%;
     text-align: center;
+    font-size: 30px;
+    padding: 0px 0px 50px 0px;
 
 }
 
@@ -120,7 +128,7 @@
     text-align: center;
     width: 100%;
     height: 100px;
-    margin: 50px;
+    padding: 50px 0px 20px 0px;
 
 }
 
@@ -135,19 +143,58 @@
 #adtPetSec{
 
     width: 100%;
-    height: 510px;
-    background-color: var(--verde);
+    height: 510px;   
     display: flex;
     align-items: center;
     padding: 5px;
+    color: var(--azul);
+    margin-bottom: 20px;
 }
 #adtPet{
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;   
+    justify-items: center;
+    
 }
 
-#formAdtPet{
+#adtPet h2{
 
+    text-align: center;
+  
+    padding-bottom: 10px;
+}
+
+#btnFormAdptPet{
+
+    width: 50%;
+}
+#buttonAdpt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+#btnFormAdptPet{
+    width: 25%;
+}
+#termosAceite {
+    align-items: start;
+}
+
+footer{
+
+    width: 100%;
+    height: 100px;
+    background-color: var(--azul); 
     display: flex;
     align-items: center;
-    background-color: #6EB3D0;
+    justify-content: center;
+    
+}
+footer p{
+
+    color: var(--preto);
+ 
 }
