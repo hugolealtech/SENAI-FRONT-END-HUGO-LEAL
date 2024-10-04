@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="/style/bootstrap.css">
+
+    <link rel="stylesheet" href="../style/style.css">
+
+    <title>Compras</title>
+</head>
+
+<body>
+    <header id="cabecalho">
+
+        <img src="/images/logo/logoWhite.svg" alt="">
+
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Adoção</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Galeria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Contatos</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+
+        <section id="catalogo"></section>
+
+
+    </main>
+
+
+
+
+    <footer>
+        <h5>Todos os Direitos Reservados a @PawShop 2024</h5>
+    </footer>
+
+    <!-- OFF CANVAS -->
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="carrinho" aria-labelledby="offcanvasExampleLabel"> <!--add id carrinho-->
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body"> <!--Apaguei o teor do body e incluí uma div com id carinhoLista-->
+            <div id="carrinhoLista"></div>
+        </div>
+    </div>
+
+    <script src="/script/bootstrap.bundle.js"></script>
+    <script src="/script/catalogo.js"></script>
+</body>
+
+</html>
