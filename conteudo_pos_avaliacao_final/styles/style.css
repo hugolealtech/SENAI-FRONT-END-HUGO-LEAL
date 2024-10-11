@@ -1,0 +1,34 @@
+*{
+
+}
+
+body{
+
+    width: 100%;
+    height: 100vh; /*viewport Hight altuda do monitor*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+#caixa{
+
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+}
+
+main {
+
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1px;
+    
+}
+
+
