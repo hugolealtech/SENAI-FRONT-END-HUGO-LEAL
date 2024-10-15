@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de Senha</title>
+</head>
+<body>
+    <h2>Verificação de Senha</h2>
+    <input type="password" id="senha" placeholder="Digite sua senha">
+    <button onclick="verificarSenha()">Verificar</button>
+    <p id="resultado"></p>
+
+    <script>
+        function verificarSenha() {
+            const senhaCorreta = 'senha123';
+            const senhaInserida = document.getElementById('senha').value;
+            const resultado = document.getElementById('resultado');
+
+            if (senhaInserida === senhaCorreta) {
+                resultado.textContent = 'Senha correta!';
+                resultado.style.color = 'green';
+            } else {
+                resultado.textContent = 'Senha incorreta!';
+                resultado.style.color = 'red';
+            }
+        }
+    </script>
+</body>
+</html>
